@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'Edy',
+  title: 'test',
   tagline: 'Documentation website',
-  url: 'https://FedericoTartarini.github.io',
-  baseUrl: '/docusaurus-example-youtube/',
+  url: 'https://chrisdobra.github.io/docusaurus-algolia/',
+  baseUrl: '/docusaurus-algolia/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'FedericoTartarini', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-example-youtube', // Usually your repo name.
+  organizationName: 'ChrisDobra', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-algolia', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'EDY',
+      title: 'test',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
@@ -23,16 +23,16 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://chrisdobra.github.io/docusaurus-algolia/',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     algolia: {
-      apiKey: 'e44c59d36394a26b1616e631a1c9d197',
-      indexName: 'edy',
-      appId: 'HXJSB0I3EO',
+      apiKey: '8e1b169fd2c844a93baaf7e4737f1d19',
+      indexName: 'test',
+      appId: '8BLJRD73FU',
 
       // Optional: see doc section bellow
       // contextualSearch: true,
@@ -81,7 +81,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://chrisdobra.github.io/docusaurus-algolia/',
             },
           ],
         },
@@ -99,13 +99,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://chrisdobra.github.io/docusaurus-algolia/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://chrisdobra.github.io/docusaurus-algolia/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
